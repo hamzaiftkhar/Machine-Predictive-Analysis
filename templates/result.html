@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prediction Result</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
     <div class="container">
         <h1>Prediction Result</h1>
-        <p>{{ prediction_text }}</p>
-        <a href="{{ url_for('home') }}">Test Again</a>
+        <p class="result-text">{{ prediction_text }}</p>
+        <a href="{{ url_for('home') }}" class="home-link">Test Again</a>
     </div>
 </body>
 </html>
