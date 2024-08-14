@@ -3,6 +3,8 @@
 
 This project is a web application for predicting machine failure types using a Random Forest model. The application processes various input features related to machine operations and predicts potential failures. The web app is built using Flask and includes preprocessing steps for feature engineering and transformation.
 
+Test here Link: [https://machine-predictive-maintenance-analysis.azurewebsites.net/](https://machine-predictive-maintenance-analysis.azurewebsites.net/)
+
 ## Features
 
 The application predicts the following failure types:
